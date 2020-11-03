@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       initialRoute: '/',
+      debugShowCheckedModeBanner: false,
       routes: {
         "/shopping_cart": (context) => MyShoppingCart()
       },
